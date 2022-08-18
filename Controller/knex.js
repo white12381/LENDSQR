@@ -3,10 +3,10 @@ const knex = require("knex")({
   connection: {
     host: "us-cdbr-east-06.cleardb.net",
     // port: 3306,
-    user: "b7b73008dce829",
-    database: "heroku_a9294397af524d2",
-      password : '7205d18b'
+    user: "b36312e1b6e987",
+    database: "heroku_4c19371dc74f806",
+      password : 'aad7a27f'
   },
 });
 module.exports = knex;
- 
+// mysql://b36312e1b6e987:aad7a27f@us-cdbr-east-06.cleardb.net/heroku_4c19371dc74f806?reconnect=true
