@@ -10,7 +10,7 @@ const ComparePassword = (name, hash) => bcrypt.compareSync(name, hash);
 
 const server = http.createServer((req, res) => {
 
-  if(req.url === '/'){
+  if(req.url === 'https://lendsqrs.herokuapp.com/'){
     res.send("LENDSQR");
   }
   // Register
