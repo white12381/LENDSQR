@@ -9,6 +9,10 @@ const knex = require("./knex");
 const ComparePassword = (name, hash) => bcrypt.compareSync(name, hash);
 
 const server = http.createServer((req, res) => {
+
+  if(req.url === '/'){
+    res.send("LENDSQR");
+  }
   // Register
   if (req.url === "/create-account" && req.method == "POST") {
     CreateAccount(res, req);
