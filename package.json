@@ -2,10 +2,11 @@
   "name": "lendsqr",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "start.js",
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watchAll"
+    "test:watch": "jest --watchAll",
+    "start": "start.js"
   },
   "author": "",
   "license": "ISC",
