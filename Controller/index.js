@@ -11,7 +11,7 @@ const ComparePassword = (name, hash) => bcrypt.compareSync(name, hash);
 const server = http.createServer((req, res) => {
 
   if(req.url === '/'){
-    res.send("LENDSQR");
+    res.end("LENDSQR");
   }
   // Register
   if (req.url === "/create-account" && req.method == "POST") {
