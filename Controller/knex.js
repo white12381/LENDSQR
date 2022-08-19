@@ -9,4 +9,4 @@ const knex = require("knex")({
   },
 });
 module.exports = knex;
-// mysql://b36312e1b6e987:aad7a27f@us-cdbr-east-06.cleardb.net/heroku_4c19371dc74f806?reconnect=true/
+// mysql://b36312e1b6e987:aad7a27f@us-cdbr-east-06.cleardb.net/heroku_4c19371dc74f806?reconnect=true
